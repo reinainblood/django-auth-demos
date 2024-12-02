@@ -1,0 +1,22 @@
+minimal_auth/
+├── manage.py
+├── requirements.txt
+├── vercel.json
+├── minimal_auth/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+└── auth_app/
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── models.py
+    ├── views.py
+    ├── urls.py
+    └── templates/
+        └── auth_app/
+            ├── login.html
+            └── base.html
+
